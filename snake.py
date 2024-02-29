@@ -81,22 +81,22 @@ def draw_snake(snake_list):
             image_head = snake_head
             image_tail = snake_tail
             pressed = True
-        elif UP == 1 and x == x_t: 
+        elif UP == 1: 
             image_body = snake_body
             image_head = snake_head
             image_tail = snake_tail
             UP -= 1
-        elif DOWN == 1 and x == x_t:
+        elif DOWN == 1:
             image_body = snake_down
             image_head = snake_head_down
             image_tail = snake_tail_down
             DOWN -= 1
-        elif LEFT == 1 and y_t == y:
+        elif LEFT == 1:
             image_body = snake_left
             image_head = snake_head_left
             image_tail = snake_tail_left
             LEFT -= 1
-        elif RIGHT == 1 and y_t == y:
+        elif RIGHT == 1:
             image_body = snake_right
             image_head = snake_head_right
             image_tail = snake_tail_right
